@@ -3,12 +3,12 @@ const filesToCache = [
   'index.html',
   'manifest.json',
   'sw.js',
-  'https://s.codetasty.com/LAX18/General/mobile/css/style.css',
-  'https://s.codetasty.com/LAX18/General/mobile/css/font.css',
-  'https://s.codetasty.com/LAX18/General/mobile/css/material.indigo-red.min.css',
-  'https://s.codetasty.com/LAX18/General/mobile/js/firebase.js',
-  'https://s.codetasty.com/LAX18/General/mobile/js/material.min.js',
-  'https://s.codetasty.com/LAX18/General/mobile/js/script.js'
+  'https://lax18.github.io/MobileJROTC/css/style.css',
+  'https://lax18.github.io/MobileJROTC/css/font.css',
+  'https://lax18.github.io/MobileJROTC/css/material.indigo-red.min.css',
+  'https://lax18.github.io/MobileJROTC/js/firebase.js',
+  'https://lax18.github.io/MobileJROTC/js/material.min.js',
+  'https://lax18.github.io/MobileJROTC/js/script.js'
 ];
 
 const staticCacheName = 'NokomisJROTC';
