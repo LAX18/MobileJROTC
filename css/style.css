@@ -1,3 +1,6 @@
+    .clickable {
+    cursor: pointer;   
+    }
     .ad2hs-prompt {
       background-color: green;
       color: white;
