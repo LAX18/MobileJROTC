@@ -1,14 +1,10 @@
 // Offline SW
 const filesToCache = [
-  'index.html',
-  'manifest.json',
   'sw.js',
-  'https://lax18.github.io/MobileJROTC/css/style.css',
   'https://lax18.github.io/MobileJROTC/css/font.css',
   'https://lax18.github.io/MobileJROTC/css/material.indigo-red.min.css',
   'https://lax18.github.io/MobileJROTC/js/firebase.js',
-  'https://lax18.github.io/MobileJROTC/js/material.min.js',
-  'https://lax18.github.io/MobileJROTC/js/script.js'
+  'https://lax18.github.io/MobileJROTC/js/material.min.js'
 ];
 
 const staticCacheName = 'NokomisJROTC';
