@@ -1,87 +1,121 @@
-    .clickable {
-    cursor: pointer;   
-    }
-    .ad2hs-prompt {
-      background-color: green;
-      color: white;
-      text-align: center;
-      cursor: pointer;
-      line-height: 30px;
-    }
-    
-    .mdl-card {
-      width: 320px;
-      height: 320px;
-    }
-    
-    table {
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    .resources > .mdl-card__title {
-      color: #000;
-      background: url('../assets/resources.png') bottom right 15% no-repeat #46B6AC;
-      background-color: white;
-    }
-    
-    .youtube > .mdl-card__title {
-      color: #000;
-      background: url('../assets/youtube.png') bottom right 15% no-repeat #46B6AC;
-      background-color: white;
-    }
-    
-    .facebook > .mdl-card__title {
-      color: #000;
-      background: url('../assets/facebook.png') bottom right 15% no-repeat #46B6AC;
-      background-color: white;
-    }
-    
-    .signups > .mdl-card__title {
-      color: #000;
-      background: url('../assets/signup.png') bottom right 15% no-repeat #46B6AC;
-      background-color: white;
-    }
-    
-    .ribbons > .mdl-card__title {
-      color: #000;
-      background: url('../assets/ribbon.png') top left 15% no-repeat #46B6AC;
-      background-color: white;
-    }
-    
-    .calendar.mdl-card {
-      width: 320px;
-      height: 320px;
-      background: #3E4EB8;
-    }
-    
-    .calendar > .mdl-card__actions {
-      border-color: rgba(255, 255, 255, 0.2);
-    }
-    
-    .calendar > .mdl-card__title {
-      align-items: flex-start;
-      display: inline-block;
-      vertical-align: middle;
-      line-height: normal;
-    }
-    
-    .calendar > .mdl-card__title > h4 {
-      margin-top: 0;
-    }
-    
-    .calendar > .mdl-card__actions {
-      display: flex;
-      box-sizing: border-box;
-      align-items: center;
-    }
-    
-    .calendar > .mdl-card__actions > .material-icons {
-      padding-right: 10px;
-    }
-    
-    .calendar > .mdl-card__title,
-    .calendar > .mdl-card__actions,
-    .calendar > .mdl-card__actions > .mdl-button {
-      color: #fff;
-    }
+.accountbutton {
+  display: inline-block;
+}
+
+.centere {
+  width: 100%;
+  text-align: center
+}
+
+.centered {
+  margin: auto;
+  display: inline-block;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.no-under a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  
+}
+
+.ad2hs-prompt {
+  background-color: green;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  line-height: 30px;
+}
+
+.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.youtube > .mdl-card__title {
+  color: #000;
+  background: url('../assets/youtube.png') bottom right 15% no-repeat #46B6AC;
+  background-color: white;
+}
+
+.facebook > .mdl-card__title {
+  color: #000;
+  background: url('../assets/facebook.png') bottom right 15% no-repeat #46B6AC;
+  background-color: white;
+}
+
+.signups > .mdl-card__title {
+  color: #000;
+  background: url('../assets/signup.png') bottom right 15% no-repeat #46B6AC;
+  background-color: white;
+}
+
+.ribbons > .mdl-card__title {
+  color: #000;
+  background: url('../assets/ribbon.png') top left 15% no-repeat #46B6AC;
+  background-color: white;
+}
+
+.resources > .mdl-card__title {
+  color: #000;
+  background: url('../assets/resources.png') bottom right 15% no-repeat #46B6AC;
+  background-color: white;
+}
+
+.alphacompany > .mdl-card__title {
+  color: #000;
+  background: url('../alpha.png') bottom right 15% no-repeat #46B6AC;
+  background-color: white;
+}
+
+.bravocompany > .mdl-card__title {
+  color: #000;
+  background: url('../bravo.png') bottom right 15% no-repeat #46B6AC;
+  background-color: white;
+}
+
+.calendar.mdl-card {
+  width: 320px;
+  height: 320px;
+  background: #3E4EB8;
+}
+
+.calendar > .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.calendar > .mdl-card__title {
+  align-items: flex-start;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.calendar > .mdl-card__title > h4 {
+  margin-top: 0;
+}
+
+.calendar > .mdl-card__actions {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.calendar > .mdl-card__actions > .material-icons {
+  padding-right: 10px;
+}
+
+.calendar > .mdl-card__title,
+.calendar > .mdl-card__actions,
+.calendar > .mdl-card__actions > .mdl-button {
+  color: #fff;
+}
