@@ -1,0 +1,118 @@
+<html>
+
+<head>
+  <title>Nokomis JROTC - Alpha Company</title>
+  <script src="//cdn.letreach.com/js/main/a99d6ff3dec6106a641e37d249ac4762.js"></script>
+  <link rel="manifest" href="https://lax18.github.io/MobileJROTC/manifest.json">
+  <link rel="stylesheet" href="https://lax18.github.io/MobileJROTC/css/font.css">
+  <link rel="stylesheet" href="https://lax18.github.io/MobileJROTC/css/material.indigo-red.min.css">
+  <link rel="stylesheet" href="https://lax18.github.io/MobileJROTC/css/style.css">
+  <script src="https://lax18.github.io/MobileJROTC/js/material.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+  <script src="mscript.js"></script>
+  <script src="https://lax18.github.io/MobileJROTC/js/script.js"></script>
+  <meta name="theme-color" content="#3f51b5">
+  <link rel="apple-touch-icon" sizes="57x57" href="/MobileJROTC/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/MobileJROTC/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/MobileJROTC/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/MobileJROTC/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/MobileJROTC/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/MobileJROTC/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/MobileJROTC/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/MobileJROTC/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/MobileJROTC/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/MobileJROTC/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="194x194" href="/MobileJROTC/assets/favicons/favicon-194x194.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/MobileJROTC/assets/favicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/MobileJROTC/assets/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="/MobileJROTC/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="apple-mobile-web-app-title" content="JROTC">
+  <meta name="application-name" content="JROTC">
+  <meta name="msapplication-TileColor" content="#3f51b5">
+  <script>
+    function onLoad() {
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyB0keF26uKYDOR2o-8HYkgoOGWhsPyHdkg",
+        authDomain: "jrotc-database.firebaseapp.com",
+        databaseURL: "https://jrotc-database.firebaseio.com",
+        projectId: "jrotc-database",
+        storageBucket: "jrotc-database.appspot.com",
+        messagingSenderId: "787128694744"
+      };
+      firebase.initializeApp(config);
+      signUpList();
+    };
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3f51b5">
+</head>
+
+<body onload="alphaCompanyOnLoad();">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <button class="mdl-layout__drawer-button mdl-button mdl-js-button mdl-button--icon" onclick="history.go(-1);">
+        <i class="material-icons">arrow_back</i>
+      </button>
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Alpha Company</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <h1 style="text-align: center;">
+        Alpha Company
+      </h1>
+      <table>
+        <tr>
+        <td>
+        <div class="mdl-card mdl-shadow--2dp" style="width:320px;height:350px;">
+          <div class="mdl-card__title">
+            Documents:
+          </div>
+          <div class="mdl-card__actions">
+          <iframe src="https://drive.google.com/embeddedfolderview?id=1kDBvVxfmYoU6pFGshJrbxFqaKDWOLOH9#list" style="width:100%; height:600px; border:0;"></iframe>
+          </div>
+          </div>  
+        </td>
+        </tr>
+        <tr>
+          <td>
+        <div class="mdl-card mdl-shadow--2dp" style="width:320px;height:350px;">
+          <div class="mdl-card__title">
+            Event:
+          </div>
+          <div class="mdl-card__actions">
+          <iframe src="https://script.google.com/a/rsu19.net/macros/s/AKfycby91rlxs3Qsy-keGMjvCn8p3y7Ro7qTQfA-6nRZnJk/exec" style="width: 100%;height: 600px;border: 0;">
+            
+            </iframe>
+          </div>
+          </div>  
+        </td>
+          </tr>
+        <tr>
+          <td>
+        <div class="mdl-card mdl-shadow--2dp" style="width:320px;height:350px;">
+          <div class="mdl-card__title">
+            Company Information and Commanders Comments:
+          </div>
+          <div class="mdl-card__actions">
+          <div id="alphacomments">No Comment.</div><br><br>
+          Current Commanders Cup Points:<br>
+            <h4>
+            <div id="alphacurrentpoints">
+              Loading...
+              </div></h4>
+          </div>
+          </div>  
+        </td>
+        </tr>
+      </table>
+    </main>
+  </div>
+</body>
+
+</html>
