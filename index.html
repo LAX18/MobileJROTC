@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -11,6 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
   <script src="https://lax18.github.io/MobileJROTC/js/script.js"></script>
+  <script src="js/authentication.js"></script>
   <meta name="theme-color" content="#3f51b5">
   <link rel="apple-touch-icon" sizes="57x57" href="/MobileJROTC/assets/favicons/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/MobileJROTC/assets/favicons/apple-touch-icon-60x60.png">
@@ -88,7 +90,7 @@
 </head>
 
 <body onload="onLoad()">
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
         <!-- Title -->
@@ -98,6 +100,21 @@
         <div class="clickable"><i class="material-icons" onclick="location.href='info.html'">info</i></div>
       </div>
     </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Nokomis JROTC</span>
+      <nav class="mdl-navigation">
+        <div id="loginbutton" class="accountbutton">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="logIn();">
+          Log In
+          </button>
+        </div>
+        <div id="logoutbutton" class="accountbutton" style="display: none;">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="logOut();">
+          Log Out
+        </button>
+        </div>
+      </nav>
+    </div>
     <main class="mdl-layout__content">
       <div class="page-content">
         <div class="ad2hs-prompt" style="display: none">Install Nokomis JROTC</div>
